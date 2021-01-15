@@ -1,0 +1,93 @@
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+@font-face {
+  font-family: myFirstFont;
+  src: url(components/fonts/Gugi-Regular.ttf);
+}
+@font-face {
+  font-family: myFirstFont1;
+  src: url(components/fonts/HammersmithOne-Regular.ttf);
+}
+body {
+  margin: 0;
+ 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+body {
+ 
+  line-height: 20px;
+  color: #58595B;
+  text-align: center;
+  min-width: 320px;
+  position: relative;
+  -webkit-text-size-adjust: none;
+  /* background: #878787; */
+  border-top: 9px solid #e1e1e1;
+}
+/* ----------------------------------nav-area-start */
+.minicart-wrapper h3 {
+  font-size: 12px;
+  color: black;
+}
+.nav-link {
+
+ 
+  display: inline-block;
+    font-size: 12px !important;
+    color: #000000;
+    text-transform: uppercase;
+    margin-left: 18px;
+}
+
+.minicart-wrapper .action.showcart.active {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.minicart-wrapper .action.showcart {
+  float: right;
+  font-size: 12px;
+  line-height: 20px;
+  background: #fff;
+  border: 1px solid #f2f2f2;
+  padding: 9px 20px 4px 0px;
+  position: relative;
+  height: 46px;
+  margin-left: 25px;
+}
+.minicart-wrapper .action.showcart {
+  white-space: nowrap;
+}
+.icon-box i{
+font-size: 22px;
+}
+.icon-box {
+  background-color:#8fbf4d;;
+  padding: 15px 22px;
+  margin-right: 12px;
+}
+.navbar-nav-custom {
+  border-top: 2px solid red;
+}
+.nav-link-custom {
+  color: red !important;
+  border-right: 1px solid #ddd;
+}
+  .nav-link{
+color: black;
+ }
+ .sf-menu {
+  border: 1px solid #f2f2f2;
+  border-top: 5px solid #e8e8e8;
+  background: #fff;
+  height: 64px;
+}
+/* ----------------------------------nav-area-start */
+h1 {
+  font-family: 'Hammersmith One', sans-serif !important;
+}

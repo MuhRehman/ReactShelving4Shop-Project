@@ -1,0 +1,46 @@
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/Gugi-Regular.ttf);
+}
+
+
+.navbar-nav .nav-item .nav-link ul li  {
+color: black;
+}
+.navbar-nav .nav-item .nav-link {
+font-size: large;
+margin-left: 22px;
+color: black;
+}
+.nav-link  {
+  color: red;
+}
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 0.25rem;
+}
+ .navbar-nav ul li a {
+   margin-left: 120px;
+   color: red;
+ }
+
+ body {
+   background: red;
+ }
+
+
+  @media screen and (max-width: 600px) {
+   
+    .navbar-nav .nav-item .nav-link {
+      font-size: large;
+      width:10%;
+      margin: auto;
+      color: black;
+      background-color: red;
+      }
+  }

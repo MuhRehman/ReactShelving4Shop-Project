@@ -1,0 +1,247 @@
+/* @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro); */
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.text-content1 {
+    margin-top: 130px;
+}
+.text-content2 {
+    /* margin-top: 233px; */
+}
+.footer h3{
+    color: rgb(93, 95, 98);
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+.main-home {
+    /* background-color: rgb(148, 148, 148);   */
+    
+    
+}
+.fsizeh1 {
+    font-size: 32px;
+}
+.text-content {
+    margin-top: 202px;
+}
+.text-rehman {
+    margin-left:0px;
+}
+.text-rehman1 {
+    margin-left:62px;
+}
+.btn-rehman {
+    margin-left:82px;
+    margin-top: 23px;
+}
+.text-rehman2 {
+    margin-left:52px;
+    font-style: italic;
+    font-size: x-large;
+    line-height:10px;
+}
+.margin-1 {
+    margin: 12px;
+}
+.personimg {
+    width:80%;
+    margin-top:px;
+}
+
+
+.work-btn {
+    box-shadow: rgb(53, 53, 53) 3px 2px 12px 1px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.text-rehman5 {
+    margin-left: 24px;
+}
+
+/* TYping effect */
+p {
+    font-family: 'Anonymous Pro', monospace;
+}
+.line {
+    position: relative;
+    margin-top: 20px;
+    top: 50%;
+    width: 16em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;transform: translateY(-50%);
+
+}
+   /* arrow animation */
+   .downArrow{
+	/* position: fixed; */
+	/* bottom: 45%; */
+	/* left: 50%; */
+}
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+/*  */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+/* Demo Purpose Only*/
+
+   /* arrow animation */
+   /* zoom  */
+
+   .full {
+    /* position: absolute; */
+    /* width: 100%; */
+    /* height: auto; */
+    /* top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block; */
+  }
+  #btn-event1 {
+      width: 170px;
+  }
+  .btn-rehman {
+    animation-duration: 2s;
+    animation-name: bounceIn;
+  }
+  
+  @keyframes bounceIn {
+   
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+   
+    
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  .zoom {
+    animation: scale 40s linear infinite;
+  }
+    
+  @keyframes scale {
+    50% {
+      -webkit-transform:scale(1.2);
+      -moz-transform:scale(1.2);
+      -ms-transform:scale(1.2);
+      -o-transform:scale(1.2);
+      transform:scale(1.2);
+    }
+  }
+
+ .anim-typewriter {
+    animation: typewriter 12s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+    color: rgb(0, 0, 0);
+}
+
+@keyframes typewriter {
+    from {
+          width: 0;
+    }
+    to {
+          width: 43em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+          border-right-color: transparent;
+    }
+}
+/* TYping effect */
+
+
+
+
+
+@media only screen and (max-width : 480px) {
+    .text-content1 .icons{
+     display: none;
+    }
+    .text-content1 {
+        margin-top: 10px;
+    }
+    .anim-typewriter {
+       display: none;
+    }
+    .text-content1 {
+        margin-top: 13px;
+    }
+    .personimg {
+        width:40%;
+        margin-top:30px;
+    }
+    .main-home {
+        width: auto;
+        height: 100vh;
+        background-color: rgb(148, 148, 148);
+    }
+    .fsizeh1 {
+        font-size: 52px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .text-rehman6 {
+        width: 95%;
+        font-size: 16px;
+    }
+    .text-content1 .icons{
+        display: none;
+       }
+    .text-content1 {
+        margin-top: 10px;
+    }
+    .anim-typewriter {
+        display: none;
+     }
+    .personimg {
+        width:70%;
+         
+    }
+    .main-home {
+        
+        height: 105vh;
+        background-color: rgb(148, 148, 148);
+    }
+  
+}

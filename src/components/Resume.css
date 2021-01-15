@@ -1,0 +1,81 @@
+.resume-main {
+    /* background-color: gray; */
+    
+   
+}
+.heading .paragrape{
+color: rgb(245, 245, 245);
+font-size: larger;
+}
+
+.progress .bar-head {
+    background-color: rgb(50, 160, 250);
+    /* background-color: rgb(5, 60, 105); */
+    width: 18%;
+    text-align: center;
+    color: whitesmoke;
+    /* font-weight:800; */
+    font-size: 23px;
+}
+.progress {
+    height: 35px;
+    margin: 33px;
+}
+.progress .progress-bar {
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: .9s;
+}
+@keyframes animateBar {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .cvtem {
+ 
+        width: 100%;
+         height:100%;
+    }
+    .resume-main {
+        /* background-color: gray; */
+        /* height: 87vh;
+        padding: 40px; */
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    .cvtem {
+ 
+        width: 70%;
+         height:95%;
+    }
+    .resume-main {
+        /* background-color: gray; */
+        height: 87vh;
+        padding: 40px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .cvtem {
+ 
+        width: 38%;
+         height:95%;
+    }
+    .resume-main {
+        /* background-color: gray; */
+        height: 87vh;
+        padding: 40px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .progress .bar-head {
+        background-color: rgb(50, 160, 250);
+        width: 28%;        
+        font-size: 14px;
+    }
+}
